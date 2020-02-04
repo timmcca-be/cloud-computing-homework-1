@@ -3,5 +3,6 @@
     "dbUsername": "user",
     "dbPassword": "pass",
     "dbName": "cchw1",
-    "jwtSecret": "secret"
+    "jwtSecret": "secret",
+    "port": 3000
 }

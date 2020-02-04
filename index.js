@@ -8,7 +8,6 @@ const jwt = require('jsonwebtoken');
 const app = express();
 app.use(bodyParser.json());
 app.use(express.static('public'));
-const port = 3000;
 
 const pool = mariadb.createPool({
     host: config.dbHost,
@@ -108,4 +107,4 @@ app.get('/account', async (req, res) => {
     });
 });
 
-app.listen(port, () => console.log(`Listening on port ${port}`));
+app.listen(config.port, () => console.log(`Listening on port ${config.port}`));
