@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Log in</h1>
+        <form onsubmit="login()" action="javascript:void(0);">
+            <label for="login-username">Username:</label>
+            <input type="text" name="login-username" id="login-username" />
+            <label for="login-password">Password:</label>
+            <input type="password" name="login-password" id="login-password" />
+            <button type="submit">Log in</button>
+        </form>
+        <p style="color: red" id="login-error"></p>
+        <h1>Sign up</h1>
+        <form onsubmit="signUp()" action="javascript:void(0);">
+            <label for="signup-username">Username:</label>
+            <input type="text" name="signup-username" id="signup-username" />
+            <label for="signup-password">Password:</label>
+            <input type="password" name="signup-password" id="signup-password" />
+            <label for="signup-firstName">First name:</label>
+            <input type="text" name="signup-firstName" id="signup-firstName" />
+            <label for="signup-lastName">Last name:</label>
+            <input type="text" name="signup-lastName" id="signup-lastName" />
+            <label for="signup-email">Email:</label>
+            <input type="text" name="signup-email" id="signup-email" />
+            <button type="submit">Sign up</button>
+        </form>
+        <p style="color: red" id="signup-error"></p>
+    </body>
+    <script src="login.js"></script>
+</html>

@@ -1,0 +1,7 @@
+{
+    "dbHost": "localhost",
+    "dbUsername": "user",
+    "dbPassword": "pass",
+    "dbName": "cchw1",
+    "jwtSecret": "secret"
+}
